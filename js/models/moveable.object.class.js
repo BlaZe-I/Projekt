@@ -1,9 +1,9 @@
 class MoveableObject{
-    x;
-    y;
+    x = 100;
+    y = 250;
     img;
     height = 100;
-    width = 150;
+    width = 250;
 
     loadImage(path){
         this.img = new Image();
@@ -17,7 +17,7 @@ class MoveableObject{
 
 
 
-    moceLeft(){
+    moveLeft(){
         
     }
 }
